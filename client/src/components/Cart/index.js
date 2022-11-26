@@ -11,6 +11,7 @@ import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+//load stripe is a temp thing, we want to encrypt this so that its secure, but will be changed at a later date
 
 const Cart = () => {
   const dispatch = useDispatch
